@@ -1,4 +1,8 @@
 == README
+### first part tutorial: https://www.youtube.com/watch?v=11BInedaQSo
+
+###second part tutorial: https://www.youtube.com/watch?v=1yRvsI34Ysw
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
