@@ -48,6 +48,7 @@ end
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-github'
+gem "omniauth-google-oauth2"
 
 
 # heroku deploy
