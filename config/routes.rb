@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'home/profile' => 'home#profile'
 
   get 'auth/:provider/callback', to: "sessions#create"
+  get 'auth/:provider/failure', to: redirect('/')
   delete 'sign_out', to: "sessions#destroy" , as: 'sign_out'
 
   # The priority is based upon order of creation: first created -> highest priority.
