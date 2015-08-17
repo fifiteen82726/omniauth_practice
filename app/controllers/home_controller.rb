@@ -12,6 +12,6 @@ class HomeController < ApplicationController
   private
 
   def set_auth
-  	@auth = session['omniauth'] if seession['omniauth'] 	
+  	@auth = session['omniauth'] if session['omniauth'] 	
   end
 end
