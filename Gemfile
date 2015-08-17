@@ -43,7 +43,15 @@ group :development, :test do
   gem 'spring'
 end
 
+
+# 3rd Login
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-github'
+
+
+# heroku deploy
+gem 'rails_12factor', group: :production
+
+
 
